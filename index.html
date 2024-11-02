@@ -1,0 +1,1586 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Spell</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- component -->
+    <div
+      class="h-screen w-full bg-black relative flex overflow-hidden font-serif"
+    >
+      <!-- Sidebar -->
+      <aside
+        class="h-full w-32 md:w-16 flex flex-col space-y-10 items-center justify-center relative bg-red-900 text-white md:px-10 text-left"
+      >
+        <!-- Profile -->
+        <div
+          class="h-8 w-16 flex items-center justify-center rounded-lg cursor-pointer hover:text-gray-800 hover:bg-white hover:duration-300 hover:ease-linear focus:bg-black text-xs text-2xl p-5 shadow-md"
+        >
+          <a href="#home">
+            <h1>HOME</h1>
+          </a>
+        </div>
+
+        <div
+          class="h-8 w-16 flex items-center justify-center rounded-lg cursor-pointer hover:text-gray-800 hover:bg-white hover:duration-300 hover:ease-linear focus:bg-white text-xs text-2xl p-5 shadow-md"
+        >
+          <a href="#about">
+            <h1>ABOUT</h1>
+          </a>
+        </div>
+
+        <!-- Theme -->
+        <div
+          class="h-8 w-16 flex items-center justify-center rounded-lg cursor-pointer hover:text-gray-800 hover:bg-white hover:duration-300 hover:ease-linear focus:bg-white text-xs text-2xl p-5 shadow-md"
+        >
+          <a href="#services">
+            <h1>SERVICES</h1>
+          </a>
+        </div>
+
+        <div
+          class="h-8 w-16 flex items-center justify-center rounded-lg cursor-pointer hover:text-gray-800 hover:bg-white hover:duration-300 hover:ease-linear focus:bg-white text-xs text-2xl p-1 md:p-5 shadow-md"
+        >
+          <a href="#contact">
+            <h1>CONTACT</h1>
+          </a>
+        </div>
+
+        <!-- Configuration -->
+      </aside>
+
+      <div class="w-full h-full flex flex-col justify-between">
+        <!-- Header -->
+        <header
+          class="h-16 w-full flex items-center relative justify-start px-5 space-x-10 bg-red-900"
+        >
+          <!-- Informação -->
+          <div class="flex flex-shrink-0 items-center space-x-4 text-white">
+            <!-- Foto -->
+            <div
+              class="h-10 w-10 rounded-full cursor-pointer bg-black border-2 border-blue-400"
+            ></div>
+            <!-- Texto -->
+            <div class="flex flex-col items-start">
+              <!-- Nome -->
+              <div class="text-md font-medium">PROF AMIDA</div>
+              <!-- Título -->
+              <div class="text-sm font-regular">Trusting your go to guy</div>
+            </div>
+          </div>
+        </header>
+
+        <!-- Main -->
+        <main class="w-full h-full flex">
+          <!-- Container -->
+          <div
+            class="h-full w-full flex flex-wrap rounded-tl grid-flow-col auto-cols-max gap-4 overflow-y-scroll"
+          >
+            <!-- Container -->
+
+            <!--first section-->
+            <section
+              class="w-1/2 h-5/6 rounded-lg flex flex-shrink-0 flex-grow justify-center items-center bg-no-repeat bg-cover text-white"
+              id="home"
+              style="
+                background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/px84871-image-kwvuylta.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=2470cf56aeeee6417897b8f7fc7b069e');
+                opacity: 1;
+              "
+            >
+              <div
+                class="first--paragraph flex flex-col justify-center items-center text-center max-w-4xl p-5 text-black z: 50;"
+              >
+                <h1 class="font-bold py-5 text-2xl md:text-5xl">
+                  UNLOCK THE MAGIC OF WORDS
+                </h1>
+                <p class="text-1xl">
+                  Transform your love life, amplify your wealth, and protect
+                  your well-being with our proven spells.
+                </p>
+                <div class="icons py-10 text-center">
+                  <a href="https://wa.link/3gcu7p">
+                    <lord-icon
+                      src="https://cdn.lordicon.com/yihyowcw.json"
+                      trigger="loop"
+                      stroke="light"
+                      colors="primary:#121331,secondary:#000000,tertiary:#e83a30"
+                      style="width: 80px; height: 50px"
+                    >
+                    </lord-icon>
+                  </a>
+                  <a href="">
+                    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+                    <lord-icon
+                      src="https://cdn.lordicon.com/mpigogwa.json"
+                      trigger="loop"
+                      delay="2000"
+                      stroke="bold"
+                      colors="primary:#121331,secondary:#c71f16,tertiary:#000000"
+                      style="width: 50px; height: 50px"
+                    >
+                    </lord-icon>
+                  </a>
+
+                  <a href="">
+                    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+                    <lord-icon
+                      src="https://cdn.lordicon.com/wwpzpqta.json"
+                      trigger="loop"
+                      stroke="bold"
+                      colors="primary:#000000,secondary:#e83a30"
+                      style="width: 50px; height: 50px"
+                    >
+                    </lord-icon>
+                  </a>
+                </div>
+              </div>
+            </section>
+            <!-- end of section -->
+
+            <!-- About us section -->
+            <section
+              class="w-full h-auto rounded-lg p-4 flex-shrink-0 flex-grow bg-[#000000] border-box max-w-full overflow-hidden"
+              id="about"
+            >
+              <div class="max-[1000px] px-4 py-6 grid md:grid-cols-2 gap-8">
+                <div class="p-2 max-w-[500px] text-white basis-1/2">
+                  <h2
+                    class="text-center uppercase text-2xl font-bold pt-2 border-b"
+                  >
+                    About Prof Amida
+                  </h2>
+                  <p class="text-center text-lg font-light py-2">
+                    A Unique Spiritual Medium And Spell Caster
+                  </p>
+                  <p
+                    class="max-w-[500px] text-sm text-center md:text-md font-light py-2"
+                  >
+                    Welcome! I am a Spiritual Medium and Spell caster from East
+                    Africa, dedicated to guiding you through life's most
+                    intricate challenges. Since discovering my gift at a young
+                    age, I have used my ability to see and sense beyond the
+                    ordinary to help people find clarity, healing, and direction
+                    since 1992. My purpose is to assist you in uncovering the
+                    deeper issues at play, whether you're navigating personal
+                    struggles, seeking answers, or trying to break free from
+                    recurring obstacles. By exploring your past and present
+                    together, we will identify the root causes of your
+                    challenges and find ways to move forward. Contact me today
+                    to schedule an appointment or phone call, and embark on a
+                    journey of healing and transformation.
+                  </p>
+                </div>
+                <div class="max-w-[full] h-10vh basis-1/2">
+                  <img class="" src="/img/clay.jpg" alt="" />
+                </div>
+              </div>
+            </section>
+            <!-- About us section ends here-->
+
+            <!-- Video section -->
+
+            <div
+              class="holder mx-auto w-11/12 grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4"
+            >
+              <div class="mb-2 relative">
+                <video class="h-[100%] w-full rounded-lg" controls>
+                  <source src="/videos/1.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <!-- each -->
+              <div class="mb-2 relative">
+                <video class="h-[100%] w-full rounded-lg" controls>
+                  <source src="/videos/2.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <!-- each -->
+              <div class="mb-2 relative">
+                <video class="h-[100%] w-full rounded-lg" controls>
+                  <source src="/videos/3.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <!-- each -->
+              <div class="mb-2 relative">
+                <video class="h-[100%] w-full rounded-lg" controls>
+                  <source src="/videos/4.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <!-- each -->
+              <div class="mb-2 relative">
+                <video class="h-[100%] w-full rounded-lg" controls>
+                  <source src="/videos/5.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <!-- each -->
+              <div class="mb-2 relative">
+                <video class="h-[100%] w-full rounded-lg" controls>
+                  <source src="/videos/6.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <!-- each -->
+              <div class="mb-2 relative">
+                <video class="h-[100%] w-full rounded-lg" controls>
+                  <source src="/videos/7.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <!-- each -->
+              <div class="mb-2 relative">
+                <video class="h-[100%] w-full rounded-lg" controls>
+                  <source src="/videos/8.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <!-- each -->
+              <!-- each -->
+              <div class="mb-2 relative">
+                <video class="h-[100%] w-full rounded-lg" controls>
+                  <source src="/videos/9.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <!-- each -->
+              <div class="mb-2 relative">
+                <video class="h-[100%] w-full rounded-lg" controls>
+                  <source src="/videos/10.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <!-- each -->
+              <div class="mb-2 relative">
+                <video class="h-[100%] w-full rounded-lg" controls>
+                  <source src="/videos/11.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <!-- each -->
+            </div>
+            <!-- Video section ends here -->
+            <!-- Services section starts here -->
+            <section id="services">
+              <div
+                class="relative overflow-hidden bg-gray-900 pt-16 pb-32 space-y-24 w-full"
+              >
+                <h1 class="text-center text-white text-3xl font-bold">
+                  LOVE SPELL
+                </h1>
+                <div class="relative">
+                  <div
+                    class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+                  >
+                    <div
+                      class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0"
+                    >
+                      <div>
+                        <div class="mt-6">
+                          <h2
+                            class="text-2xl font-bold tracking-tight text-white"
+                          >
+                            Attraction Love Spell
+                          </h2>
+                          <p class="mt-4 text-lg text-gray-300">
+                            An Attraction Spell is a focused magical practice
+                            designed to draw in love, positivity, or desired
+                            outcomes by channeling energy toward a specific
+                            goal. It involves using intention, visualization,
+                            and symbolic tools to align with the universe's
+                            energies. By concentrating on a clear desire, the
+                            practitioner aims to manifest attraction in areas
+                            such as romance, success, or prosperity, guiding
+                            those energies into their life or a specific
+                            situation.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mt-12 sm:mt-16 lg:mt-0">
+                      <div
+                        class="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0"
+                      >
+                        <img
+                          loading="lazy"
+                          width="647"
+                          height="486"
+                          class="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                          style="color: transparent"
+                          src="/img/love1.jpg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="relative">
+                  <div
+                    class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+                  >
+                    <div
+                      class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 lg:col-start-2"
+                    >
+                      <div>
+                        <div class="mt-6">
+                          <h2
+                            class="text-2xl font-bold tracking-tight text-white"
+                          >
+                            Binding Love Spell
+                          </h2>
+                          <p class="mt-4 text-lg text-gray-300">
+                            A Binding Spell is a form of magic used to restrict
+                            or neutralize a person, situation, or energy. Its
+                            purpose is to prevent harm, influence, or unwanted
+                            actions by symbolically tying down or containing the
+                            target's power. Through focused intent and ritual,
+                            the caster seeks to create energetic boundaries,
+                            often for protection, to limit negative behavior or
+                            to control specific outcomes in a safe, non-harmful
+                            manner.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mt-12 sm:mt-16 lg:mt-0">
+                      <div
+                        class="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0"
+                      >
+                        <img
+                          alt="Inbox user interface"
+                          loading="lazy"
+                          width="647"
+                          height="486"
+                          class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+                          style="color: transparent"
+                          src="/img/love2.jpg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="relative">
+                  <div
+                    class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+                  >
+                    <div
+                      class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0"
+                    >
+                      <div>
+                        <div class="mt-6">
+                          <h2
+                            class="text-2xl font-bold tracking-tight text-white"
+                          >
+                            Cast Lost Love Spell
+                          </h2>
+                          <p class="mt-4 text-lg text-gray-300">
+                            It involves creating a peaceful space, setting a
+                            clear intention to restore a past relationship, and
+                            focusing on emotional healing. Using symbolic items
+                            like candles, personal objects, and written
+                            affirmations, the spell calls upon the energy of
+                            love to reconnect hearts. Through visualization and
+                            a heartfelt ritual, the caster directs energy toward
+                            rekindling the emotional bond with the lost partner.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mt-12 sm:mt-16 lg:mt-0">
+                      <div
+                        class="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0"
+                      >
+                        <img
+                          loading="lazy"
+                          width="646"
+                          height="485"
+                          class="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                          style="color: transparent"
+                          src="/img/love3.jpg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="relative">
+                  <div
+                    class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+                  >
+                    <div
+                      class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 lg:col-start-2"
+                    >
+                      <div>
+                        <div class="mt-6">
+                          <h2
+                            class="text-2xl font-bold tracking-tight text-white"
+                          >
+                            Casting Love Spell
+                          </h2>
+                          <p class="mt-4 text-lg text-gray-300">
+                            Casting a Lost Love Spell focuses on rekindling a
+                            past relationship by setting a clear intention and
+                            channeling loving energy. Through visualization and
+                            symbolic rituals, such as lighting candles and using
+                            personal items, the spell seeks to heal emotional
+                            wounds and restore the bond. The process involves
+                            directing positive energy toward reconnecting with
+                            the lost partner, allowing love to flow back
+                            naturally.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mt-12 sm:mt-16 lg:mt-0">
+                      <div
+                        class="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0"
+                      >
+                        <img
+                          alt="Inbox user interface"
+                          loading="lazy"
+                          width="647"
+                          height="486"
+                          class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+                          style="color: transparent"
+                          src="/img/love4.jpg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section>
+              <div
+                class="relative overflow-hidden bg-gray-900 pt-16 pb-32 space-y-24"
+              >
+                <h1
+                  class="text-center text-white text-3xl font-bold md:text-3xl"
+                >
+                  MONEY SPELL
+                </h1>
+                <div class="relative">
+                  <div
+                    class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+                  >
+                    <div
+                      class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0"
+                    >
+                      <div>
+                        <div class="mt-6">
+                          <h2
+                            class="text-2xl font-bold tracking-tight text-white"
+                          >
+                            Wealth Money Spell Caster
+                          </h2>
+                          <p class="mt-4 text-lg text-gray-300">
+                            A Wealth Money Spell is a magical practice aimed at
+                            attracting financial abundance and prosperity.
+                            Through focused intent, visualization, and symbolic
+                            actions, such as using candles, herbs, or
+                            affirmations, the spellcaster channels energy to
+                            align with opportunities for wealth. The ritual
+                            seeks to remove financial blockages, invite success,
+                            and enhance the flow of money, fostering an
+                            atmosphere of prosperity and abundance in the
+                            caster's life.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mt-12 sm:mt-16 lg:mt-0">
+                      <div
+                        class="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0"
+                      >
+                        <img
+                          loading="lazy"
+                          width="647"
+                          height="486"
+                          class="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                          style="color: transparent"
+                          src="/img/money1.jpg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="relative">
+                  <div
+                    class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+                  >
+                    <div
+                      class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 lg:col-start-2"
+                    >
+                      <div>
+                        <div class="mt-6">
+                          <h2
+                            class="text-2xl font-bold tracking-tight text-white"
+                          >
+                            Cast Hoodoo Money Spell
+                          </h2>
+                          <p class="mt-4 text-lg text-gray-300">
+                            Casting a Hoodoo Money Spell involves drawing
+                            financial success by invoking ancestral and
+                            spiritual forces. Through focused intent and the use
+                            of symbolic elements like herbs, oils, or charms,
+                            the practitioner channels energy toward attracting
+                            wealth and removing financial obstacles. The spell
+                            creates a spiritual path for money and prosperity to
+                            flow into the caster's life, often combining
+                            personal power with traditional folk magic practices
+                            for financial gain.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mt-12 sm:mt-16 lg:mt-0">
+                      <div
+                        class="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0"
+                      >
+                        <img
+                          alt="Inbox user interface"
+                          loading="lazy"
+                          width="647"
+                          height="486"
+                          class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+                          style="color: transparent"
+                          src="/img/money2.jpg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="relative">
+                  <div
+                    class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+                  >
+                    <div
+                      class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0"
+                    >
+                      <div>
+                        <div class="mt-6">
+                          <h2
+                            class="text-2xl font-bold tracking-tight text-white"
+                          >
+                            Good Luck Money Spell
+                          </h2>
+                          <p class="mt-4 text-lg text-gray-300">
+                            A Good Luck Money Spell is a ritual focused on
+                            attracting financial fortune and opportunities.
+                            Through intention, visualization, and the use of
+                            symbolic tools, the caster aligns their energy with
+                            luck and abundance. The spell enhances the flow of
+                            wealth by removing blockages and inviting favorable
+                            circumstances, allowing good luck and financial
+                            success to manifest in the caster's life.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mt-12 sm:mt-16 lg:mt-0">
+                      <div
+                        class="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0"
+                      >
+                        <img
+                          loading="lazy"
+                          width="646"
+                          height="485"
+                          class="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                          style="color: transparent"
+                          src="/img/money3.jpg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="relative">
+                  <div
+                    class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+                  >
+                    <div
+                      class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 lg:col-start-2"
+                    >
+                      <div>
+                        <div class="mt-6">
+                          <h2
+                            class="text-2xl md:text-1xl font-bold tracking-tight text-white"
+                          >
+                            Money Amulet
+                          </h2>
+                          <p class="mt-4 text-lg text-gray-300">
+                            A Money Amulet is a powerful charm designed to
+                            attract wealth and financial prosperity to its
+                            owner. Infused with specific intentions and
+                            spiritual energy, the amulet works by enhancing the
+                            flow of abundance and protecting against financial
+                            loss. By carrying or wearing it, the user aligns
+                            themselves with positive financial vibrations,
+                            inviting luck, opportunities, and success into their
+                            life through continuous energetic support.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mt-12 sm:mt-16 lg:mt-0">
+                      <div
+                        class="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0"
+                      >
+                        <img
+                          alt="Inbox user interface"
+                          loading="lazy"
+                          width="647"
+                          height="486"
+                          class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+                          style="color: transparent"
+                          src="/img/money4.jpg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section>
+              <div
+                class="relative overflow-hidden bg-gray-900 pt-16 pb-32 space-y-24"
+              >
+                <h1
+                  class="text-center text-white text-3xl font-bold md:text-3xl"
+                >
+                  LOTTERY SPELL
+                </h1>
+                <div class="relative">
+                  <div
+                    class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+                  >
+                    <div
+                      class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0"
+                    >
+                      <div>
+                        <div class="mt-6">
+                          <h2
+                            class="text-2xl font-bold tracking-tight text-white"
+                          >
+                            Lottery Spells for doubling money
+                          </h2>
+                          <p class="mt-4 text-lg text-gray-300">
+                            Lottery Spells for doubling money focus on enhancing
+                            luck and increasing the chances of winning through
+                            spiritual and magical means. By channeling intent
+                            and energy, often using candles, symbols, or
+                            affirmations, these spells align the caster with
+                            opportunities for financial gain. The ritual seeks
+                            to attract favorable outcomes in games of chance,
+                            invoking forces to improve fortune and potentially
+                            double the money won in lotteries or gambling
+                            ventures.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mt-12 sm:mt-16 lg:mt-0">
+                      <div
+                        class="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0"
+                      >
+                        <img
+                          loading="lazy"
+                          width="647"
+                          height="486"
+                          class="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                          style="color: transparent"
+                          src="/img/lottery1.jpg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="relative">
+                  <div
+                    class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+                  >
+                    <div
+                      class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 lg:col-start-2"
+                    >
+                      <div>
+                        <div class="mt-6">
+                          <h2
+                            class="text-2xl font-bold tracking-tight text-white"
+                          >
+                            Lottery Spells that work and sweep Bingo spells
+                          </h2>
+                          <p class="mt-4 text-lg text-gray-300">
+                            Casting a Hoodoo Money Spell involves drawing
+                            financial success by invoking ancestral and
+                            spiritual forces. Through focused intent and the use
+                            of symbolic elements like herbs, oils, or charms,
+                            the practitioner channels energy toward attracting
+                            wealth and removing financial obstacles. The spell
+                            creates a spiritual path for money and prosperity to
+                            flow into the caster's life, often combining
+                            personal power with traditional folk magic practices
+                            for financial gain.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mt-12 sm:mt-16 lg:mt-0">
+                      <div
+                        class="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0"
+                      >
+                        <img
+                          alt="Inbox user interface"
+                          loading="lazy"
+                          width="647"
+                          height="486"
+                          class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+                          style="color: transparent"
+                          src="/img/lottery2.jpg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="relative">
+                  <div
+                    class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+                  >
+                    <div
+                      class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0"
+                    >
+                      <div>
+                        <div class="mt-6">
+                          <h2
+                            class="text-2xl font-bold tracking-tight text-white"
+                          >
+                            Good Luck Money Spell
+                          </h2>
+                          <p class="mt-4 text-lg text-gray-300">
+                            A Good Luck Money Spell is a ritual focused on
+                            attracting financial fortune and opportunities.
+                            Through intention, visualization, and the use of
+                            symbolic tools, the caster aligns their energy with
+                            luck and abundance. The spell enhances the flow of
+                            wealth by removing blockages and inviting favorable
+                            circumstances, allowing good luck and financial
+                            success to manifest in the caster's life.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mt-12 sm:mt-16 lg:mt-0">
+                      <div
+                        class="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0"
+                      >
+                        <img
+                          loading="lazy"
+                          width="646"
+                          height="485"
+                          class="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                          style="color: transparent"
+                          src="/img/lottery3.jpg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section>
+              <div
+                class="relative overflow-hidden bg-gray-900 pt-16 pb-32 space-y-24"
+              >
+                <h1
+                  class="text-center text-white text-3xl font-bold md:text-3xl"
+                >
+                  MARRIAGE SPELL
+                </h1>
+                <div class="relative">
+                  <div
+                    class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+                  >
+                    <div
+                      class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0"
+                    >
+                      <div>
+                        <div class="mt-6">
+                          <h2
+                            class="text-2xl font-bold tracking-tight text-white"
+                          >
+                            Cast Powerful Committment Spell
+                          </h2>
+                          <p class="mt-4 text-lg text-gray-300">
+                            Casting a powerful spell involves focusing intense
+                            energy and intent to manifest a desired outcome,
+                            whether for love, protection, wealth, or healing.
+                            Through ritual, visualization, and symbolic
+                            elements, the caster aligns their will with
+                            spiritual or universal forces. The spell's strength
+                            depends on the clarity of intent, the energy raised,
+                            and the practitioner's ability to channel that power
+                            toward manifesting their goals in reality.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mt-12 sm:mt-16 lg:mt-0">
+                      <div
+                        class="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0"
+                      >
+                        <img
+                          loading="lazy"
+                          width="647"
+                          height="486"
+                          class="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                          style="color: transparent"
+                          src="/img/marriage1.jpg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="relative">
+                  <div
+                    class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+                  >
+                    <div
+                      class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 lg:col-start-2"
+                    >
+                      <div>
+                        <div class="mt-6">
+                          <h2
+                            class="text-2xl font-bold tracking-tight text-white"
+                          >
+                            Happy Marriage Spell
+                          </h2>
+                          <p class="mt-4 text-lg text-gray-300">
+                            A happy marriage spell is designed to foster love,
+                            harmony, and understanding within a relationship. By
+                            channeling positive energy and intent, the spell
+                            strengthens emotional bonds, promotes communication,
+                            and resolves conflicts. It aims to create an
+                            enduring sense of unity and joy between partners,
+                            enhancing the connection and ensuring long-lasting
+                            happiness in marriage through spiritual alignment
+                            and supportive energy.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mt-12 sm:mt-16 lg:mt-0">
+                      <div
+                        class="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0"
+                      >
+                        <img
+                          alt="Inbox user interface"
+                          loading="lazy"
+                          width="647"
+                          height="486"
+                          class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+                          style="color: transparent"
+                          src="/img/marriage2.jpg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="relative">
+                  <div
+                    class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+                  >
+                    <div
+                      class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0"
+                    >
+                      <div>
+                        <div class="mt-6">
+                          <h2
+                            class="text-2xl font-bold tracking-tight text-white"
+                          >
+                            Stop Divorce or Seperation Spell
+                          </h2>
+                          <p class="mt-4 text-lg text-gray-300">
+                            A stop divorce or separation spell focuses on
+                            healing and restoring a troubled relationship. By
+                            channeling energy and intent, it helps resolve
+                            conflicts, rebuild trust, and strengthen the
+                            emotional bond between partners. The spell aims to
+                            prevent divorce or separation by encouraging love,
+                            understanding, and reconciliation, ultimately
+                            fostering harmony and commitment within the
+                            relationship through spiritual intervention.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mt-12 sm:mt-16 lg:mt-0">
+                      <div
+                        class="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0"
+                      >
+                        <img
+                          loading="lazy"
+                          width="646"
+                          height="485"
+                          class="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                          style="color: transparent"
+                          src="/img/marriage3.jpg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="relative">
+                  <div
+                    class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+                  >
+                    <div
+                      class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 lg:col-start-2"
+                    >
+                      <div>
+                        <div class="mt-6">
+                          <h2
+                            class="text-2xl font-bold tracking-tight text-white"
+                          >
+                            Cast Divorce Spell
+                          </h2>
+                          <p class="mt-4 text-lg text-gray-300">
+                            Casting a divorce spell is intended to bring about
+                            the end of a marriage or relationship by
+                            energetically facilitating separation. It works by
+                            channeling intent and energy to dissolve emotional
+                            and spiritual bonds between partners, often to
+                            promote closure, freedom, or peace. The spell helps
+                            remove obstacles to parting ways, ensuring both
+                            individuals can move forward without lingering
+                            attachment or conflict.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mt-12 sm:mt-16 lg:mt-0">
+                      <div
+                        class="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0"
+                      >
+                        <img
+                          alt="Inbox user interface"
+                          loading="lazy"
+                          width="647"
+                          height="486"
+                          class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+                          style="color: transparent"
+                          src="/img/marriage4.jpg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="relative">
+                  <div
+                    class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+                  >
+                    <div
+                      class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0"
+                    >
+                      <div>
+                        <div class="mt-6">
+                          <h2
+                            class="text-2xl font-bold tracking-tight text-white"
+                          >
+                            Devotion Spell
+                          </h2>
+                          <p class="mt-4 text-lg text-gray-300">
+                            A devotion spell is designed to deepen emotional
+                            commitment and loyalty in a relationship. By
+                            channeling focused energy and intent, the spell
+                            enhances feelings of love, trust, and dedication
+                            between partners. It strengthens the bond by
+                            encouraging unwavering support and emotional
+                            closeness, fostering a lasting sense of connection
+                            and devotion in the relationship, ensuring mutual
+                            affection and fidelity.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mt-12 sm:mt-16 lg:mt-0">
+                      <div
+                        class="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0"
+                      >
+                        <img
+                          loading="lazy"
+                          width="646"
+                          height="485"
+                          class="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                          style="color: transparent"
+                          src="/img/marriage5.jpg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section>
+              <div
+                class="relative overflow-hidden bg-gray-900 pt-16 pb-32 space-y-24"
+              >
+                <h1
+                  class="text-center text-white text-3xl font-bold md:text-3xl"
+                >
+                  PROTECTION SPELL
+                </h1>
+                <div class="relative">
+                  <div
+                    class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+                  >
+                    <div
+                      class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0"
+                    >
+                      <div>
+                        <div class="mt-6">
+                          <h2
+                            class="text-2xl font-bold tracking-tight text-white"
+                          >
+                            Curse and Hex Spell
+                          </h2>
+                          <p class="mt-4 text-lg text-gray-300">
+                            A curse or hex spell is intended to bring
+                            misfortune, harm, or bad luck to a target. Through
+                            focused negative energy and intent, the spell aims
+                            to disrupt the target’s life, causing emotional,
+                            physical, or spiritual difficulties. Often used as a
+                            form of retribution or protection, these spells
+                            channel destructive forces, invoking hardship or
+                            distress for the recipient, based on the caster’s
+                            specific intent.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mt-12 sm:mt-16 lg:mt-0">
+                      <div
+                        class="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0"
+                      >
+                        <img
+                          loading="lazy"
+                          width="647"
+                          height="486"
+                          class="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                          style="color: transparent"
+                          src="/img/protection1.jpg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="relative">
+                  <div
+                    class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+                  >
+                    <div
+                      class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 lg:col-start-2"
+                    >
+                      <div>
+                        <div class="mt-6">
+                          <h2
+                            class="text-2xl font-bold tracking-tight text-white"
+                          >
+                            White Magic Protection Spell
+                          </h2>
+                          <p class="mt-4 text-lg text-gray-300">
+                            A white magic protection spell is designed to shield
+                            an individual from harm, negativity, or malicious
+                            energy. By invoking positive, healing forces, the
+                            spell creates a protective barrier around the
+                            person, ensuring safety and peace. It focuses on
+                            warding off ill intentions and fostering well-being,
+                            using light and pure energy to maintain balance and
+                            security in the caster's life, often bringing calm
+                            and inner strength.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mt-12 sm:mt-16 lg:mt-0">
+                      <div
+                        class="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0"
+                      >
+                        <img
+                          alt="Inbox user interface"
+                          loading="lazy"
+                          width="647"
+                          height="486"
+                          class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+                          style="color: transparent"
+                          src="/img/protection2.jpg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section>
+              <div
+                class="relative overflow-hidden bg-gray-900 pt-16 pb-32 space-y-24"
+              >
+                <h1
+                  class="text-center text-white text-3xl font-bold md:text-3xl"
+                >
+                  MIGHTY MAGIC RING SPELL
+                </h1>
+                <div class="relative">
+                  <div
+                    class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+                  >
+                    <div
+                      class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0"
+                    >
+                      <div>
+                        <div class="mt-6">
+                          <h2
+                            class="text-2xl font-bold tracking-tight text-white"
+                          >
+                            Magic Ring for Love
+                          </h2>
+                          <p class="mt-4 text-lg text-gray-300">
+                            A magic ring for love is a charm imbued with
+                            intentions to attract or enhance romantic
+                            relationships. By channeling energy and focusing on
+                            love-related desires, the ring acts as a powerful
+                            talisman, promoting emotional connection and
+                            affection. When worn or carried, it helps the wearer
+                            manifest love, deepen existing bonds, and create an
+                            inviting aura for romantic opportunities, fostering
+                            a positive environment for love to flourish.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mt-12 sm:mt-16 lg:mt-0">
+                      <div
+                        class="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0"
+                      >
+                        <img
+                          loading="lazy"
+                          width="647"
+                          height="486"
+                          class="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                          style="color: transparent"
+                          src="/img/magic1.jpg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="relative">
+                  <div
+                    class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+                  >
+                    <div
+                      class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 lg:col-start-2"
+                    >
+                      <div>
+                        <div class="mt-6">
+                          <h2
+                            class="text-2xl font-bold tracking-tight text-white"
+                          >
+                            Spiritual Magic Ring
+                          </h2>
+                          <p class="mt-4 text-lg text-gray-300">
+                            A spiritual magic ring is an enchanted piece of
+                            jewelry designed to enhance spiritual awareness and
+                            connection. It serves as a conduit for positive
+                            energy, aiding the wearer in their spiritual
+                            practices, meditation, or manifestation. By focusing
+                            on specific intentions, the ring can help strengthen
+                            intuition, protect against negativity, and
+                            facilitate personal growth, creating a deeper
+                            connection with one’s spiritual path and the
+                            universe's energies.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mt-12 sm:mt-16 lg:mt-0">
+                      <div
+                        class="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0"
+                      >
+                        <img
+                          alt="Inbox user interface"
+                          loading="lazy"
+                          width="647"
+                          height="486"
+                          class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+                          style="color: transparent"
+                          src="/img/magic2.jpg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="relative">
+                  <div
+                    class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+                  >
+                    <div
+                      class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0"
+                    >
+                      <div>
+                        <div class="mt-6">
+                          <h2
+                            class="text-2xl font-bold tracking-tight text-white"
+                          >
+                            Magic Ring for Fertility
+                          </h2>
+                          <p class="mt-4 text-lg text-gray-300">
+                            A magic ring for fertility is a powerful talisman
+                            designed to enhance the wearer’s ability to conceive
+                            or promote reproductive health. Imbued with specific
+                            intentions, the ring channels positive energy to
+                            support fertility-related goals, creating a
+                            nurturing environment for new life. When worn, it
+                            serves as a symbol of hope and potential, helping to
+                            align the wearer’s energies with their desire for
+                            family and motherhood, fostering a sense of
+                            empowerment and connection.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mt-12 sm:mt-16 lg:mt-0">
+                      <div
+                        class="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0"
+                      >
+                        <img
+                          loading="lazy"
+                          width="646"
+                          height="485"
+                          class="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                          style="color: transparent"
+                          src="/img/magic3.jpg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section>
+              <div
+                class="relative overflow-hidden bg-gray-900 pt-16 pb-32 space-y-24"
+              >
+                <h1
+                  class="text-center text-white text-3xl font-bold md:text-3xl"
+                >
+                  BLACK MAGIC SPELL
+                </h1>
+                <div class="relative">
+                  <div
+                    class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+                  >
+                    <div
+                      class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0"
+                    >
+                      <div>
+                        <div class="mt-6">
+                          <h2
+                            class="text-2xl font-bold tracking-tight text-white"
+                          >
+                            Black Magic Spell Caster
+                          </h2>
+                          <p class="mt-4 text-lg text-gray-300">
+                            A black magic spell caster specializes in using
+                            supernatural forces to influence or control
+                            outcomes, often through curses, hexes, or
+                            manipulative spells. They channel negative energy
+                            and intent to achieve specific goals, which may
+                            include revenge, protection, or personal gain. While
+                            effective, black magic is viewed as controversial
+                            due to its potential to harm others and disrupt
+                            natural balances, making ethical considerations
+                            crucial in its practice.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mt-12 sm:mt-16 lg:mt-0">
+                      <div
+                        class="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0"
+                      >
+                        <img
+                          loading="lazy"
+                          width="647"
+                          height="486"
+                          class="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                          style="color: transparent"
+                          src="/img/black-magic1.jpg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="relative">
+                  <div
+                    class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+                  >
+                    <div
+                      class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 lg:col-start-2"
+                    >
+                      <div>
+                        <div class="mt-6">
+                          <h2
+                            class="text-2xl font-bold tracking-tight text-white"
+                          >
+                            Black Magic Love Spell
+                          </h2>
+                          <p class="mt-4 text-lg text-gray-300">
+                            A black magic love spell seeks to exert control or
+                            influence over someone's feelings and desires, often
+                            aiming to bind them to the caster. This type of
+                            spell typically involves invoking darker forces or
+                            energies to manipulate emotions, drawing the target
+                            into an intense romantic connection. While it can
+                            create powerful effects, black magic love spells
+                            carry ethical considerations and potential
+                            consequences, as they may infringe upon free will
+                            and natural relationship dynamics.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mt-12 sm:mt-16 lg:mt-0">
+                      <div
+                        class="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0"
+                      >
+                        <img
+                          alt="Inbox user interface"
+                          loading="lazy"
+                          width="647"
+                          height="486"
+                          class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+                          style="color: transparent"
+                          src="/img/black-magic2.jpg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="relative">
+                  <div
+                    class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+                  >
+                    <div
+                      class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0"
+                    >
+                      <div>
+                        <div class="mt-6">
+                          <h2
+                            class="text-2xl font-bold tracking-tight text-white"
+                          >
+                            Black Magic Money Spell
+                          </h2>
+                          <p class="mt-4 text-lg text-gray-300">
+                            A black magic money spell is intended to attract
+                            wealth and financial gain through the use of darker,
+                            more aggressive energies. By invoking powerful
+                            forces, the spell seeks to remove obstacles to
+                            prosperity and manipulate circumstances to ensure
+                            financial success. While it may yield immediate
+                            results, practitioners should approach such spells
+                            with caution, as they can carry consequences and
+                            moral implications that may affect the caster and
+                            others involved.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mt-12 sm:mt-16 lg:mt-0">
+                      <div
+                        class="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0"
+                      >
+                        <img
+                          loading="lazy"
+                          width="647"
+                          height="486"
+                          class="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                          style="color: transparent"
+                          src="/img/black-magic3.jpg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section>
+              <div
+                class="relative overflow-hidden bg-gray-900 pt-16 pb-32 space-y-24"
+              >
+                <h1
+                  class="text-center text-white text-3xl font-bold md:text-3xl"
+                >
+                  WHITE MAGIC SPELL
+                </h1>
+                <div class="relative">
+                  <div
+                    class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+                  >
+                    <div
+                      class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0"
+                    >
+                      <div>
+                        <div class="mt-6">
+                          <h2
+                            class="text-2xl font-bold tracking-tight text-white"
+                          >
+                            White Magic Spell in the world
+                          </h2>
+                          <p class="mt-4 text-lg text-gray-300">
+                            A white magic spell is a positive and benevolent
+                            form of magic aimed at promoting healing,
+                            protection, and love. Practiced worldwide, it
+                            emphasizes the intention to help others and create
+                            positive change. White magic draws on natural
+                            energies, spiritual forces, and rituals to manifest
+                            desired outcomes, such as harmony, good fortune, and
+                            emotional well-being, fostering a sense of balance
+                            and goodness in the practitioner's life and the
+                            lives of others.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mt-12 sm:mt-16 lg:mt-0">
+                      <div
+                        class="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0"
+                      >
+                        <img
+                          loading="lazy"
+                          width="647"
+                          height="486"
+                          class="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                          style="color: transparent"
+                          src="/img/white-magic.jpg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- Services section ends here -->
+
+            <!-- Contact Us section -->
+            <section id="contact">
+              <div
+                class="relative overflow-hidden bg-black pt-8 pb-8 space-y-24 w-full"
+              >
+                <h1
+                  class="text-center text-white text-3xl font-bold md:text-3xl"
+                >
+                  CONTACT US
+                </h1>
+                <div class="relative">
+                  <div
+                    class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8"
+                  >
+                    <div
+                      class="mx-auto max-w-xl lg:mx-0 lg:max-w-none lg:py-16 px-4"
+                    >
+                      <div>
+                        <div class="mt-6">
+                          <h2
+                            class="text-2xl font-bold tracking-tight text-white"
+                          >
+                            GET IN TOUCH WITH ME
+                          </h2>
+                          <p class="mt-4 text-lg text-gray-300">
+                            Prof Amida Magic and Spells is committed to serving
+                            your needs. Questions or Special requests? We would
+                            love to hear from you, so don't hesitate to reach
+                            out to us today.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mt-12 sm:mt-16 lg:mt-0">
+                      <div
+                        class="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0"
+                      >
+                        <form class="flex flex-col mt-3">
+                          <p>
+                            <input
+                              class="mt-3 p-2 w-[60%]"
+                              type="text"
+                              placeholder="Enter your Name"
+                            />
+                          </p>
+                          <p>
+                            <input
+                              class="mt-3 p-2 w-[60%]"
+                              type="text"
+                              placeholder="Enter your Email"
+                            />
+                          </p>
+                          <p>
+                            <input
+                              class="mt-3 p-2 w-[60%]"
+                              type="text"
+                              placeholder="Enter your Phone Number"
+                            />
+                          </p>
+                          <p>
+                            <input
+                              class="mt-3 p-2 w-[60%]"
+                              type="text"
+                              placeholder="Enter your Country"
+                            />
+                          </p>
+                          <p>
+                            <textarea
+                              name="Type your message here..."
+                              class="mt-3 p-4 w-[60%]"
+                              placeholder="Type your message here"
+                            ></textarea>
+                          </p>
+                          <button
+                            class="p-2 mt-3 bg-[#fff] text-black w-[150px]"
+                          >
+                            SUBMIT
+                          </button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <footer class="bg-gray-400 w-full py-1">
+              <p class="text-center font-medium py-6 text-white">
+                Copyright 2024. All rights are Reserved
+              </p>
+            </footer>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="j.js"></script>
+  </body>
+</html>
